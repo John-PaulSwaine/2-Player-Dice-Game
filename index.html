@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dice Game</h1>
+
+  <button id="newGameBtn">New Game</button>
+
+  <div class="player">
+    <h2 id="player1Name">Player 1</h2>
+    <div>Total: <span id="player1Total">0</span></div>
+    <div>Current: <span id="player1Current">0</span></div>
+  </div>
+
+  <div class="player">
+    <h2 id="player2Name">Player 2</h2>
+    <div>Total: <span id="player2Total">0</span></div>
+    <div>Current: <span id="player2Current">0</span></div>
+  </div>
+
+  <!-- Coin Toss Section -->
+  <div id="coinTossSection" class="hidden">
+    <h3 id="choosePrompt">Choose Heads or Tails:</h3>
+    <button id="headsBtn">Heads</button>
+    <button id="tailsBtn">Tails</button>
+    <img id="cointoss" src="./images/Cointoss.gif" class="center hidden">
+    <img id="heads" src="./images/Heads.jpg" class="center hidden">
+    <img id="tails" src="./images/Tails.jpg" class="center hidden">
+  </div>
+
+  <div id="message"></div>
+
+  <button id="rollBtn" class="hidden">Roll Dice</button>
+  <button id="holdBtn" class="hidden">Hold</button>
+
+  <!-- Dice Images -->
+  <img id="diceImage" src="./images/diceRoll.gif" class="center hidden">
+  <img id="dice1" src="./images/dice1.png" class="center hidden">
+  <img id="dice2" src="./images/dice2.png" class="center hidden">
+  <img id="dice3" src="./images/dice3.png" class="center hidden">
+  <img id="dice4" src="./images/dice4.png" class="center hidden">
+  <img id="dice5" src="./images/dice5.png" class="center hidden">
+  <img id="dice6" src="./images/dice6.png" class="center hidden">
+
+  <script src="diceGame.js"></script>
+</body>
+</html>
