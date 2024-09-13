@@ -11,13 +11,13 @@
 
   <button id="newGameBtn">New Game</button>
 
-  <div class="player">
+  <div class="player1">
     <h2 id="player1Name">Player 1</h2>
     <div>Total: <span id="player1Total">0</span></div>
     <div>Current: <span id="player1Current">0</span></div>
   </div>
 
-  <div class="player">
+  <div class="player2">
     <h2 id="player2Name">Player 2</h2>
     <div>Total: <span id="player2Total">0</span></div>
     <div>Current: <span id="player2Current">0</span></div>
@@ -33,7 +33,9 @@
     <img id="tails" src="./images/Tails.jpg" class="center hidden">
   </div>
 
-  <div id="message"></div>
+  <div>
+    <h2 id="message"></h2>
+  </div>
 
   <button id="rollBtn" class="hidden">Roll Dice</button>
   <button id="holdBtn" class="hidden">Hold</button>
@@ -46,6 +48,23 @@
   <img id="dice4" src="./images/dice4.png" class="center hidden">
   <img id="dice5" src="./images/dice5.png" class="center hidden">
   <img id="dice6" src="./images/dice6.png" class="center hidden">
+
+  <div id="rules">
+    <h2>How To Play:</h2>
+    <h4>First Player 1 shall choose either Heads or Tails and a coin shall toss landing on either heads or tails. This decides the turn order.</h4>
+    <h4>If Player 1 guesses correctly they shall begin rolling the dice. They do so until either they roll a 1 or they choose to hold.</h4>
+    <h4>At this point the other player takes their turn by rolling the dice until they roll a 1 or hold.</h4>
+    <h4>The turns go back and forth until someone has achieved the End Game conditions.</h4>
+  </div>
+
+  <div id="howToWin">
+    <h2>How To Win:</h2>
+    <h4>Once a player banks a total of 50 points from their dice rolls the game ends. They are declared the winner.</h4>
+    <h2>How to Score:</h2>
+    <h4>You score points subject to the number on each individual roll e.g. if you roll a 4, you get 4 points.</h4>
+    <h4>If you roll a 1 not only does your turn end but you lose all the points you havent banked.</h4>
+    <h4>To bank your points you have to hold e.g. if you roll a 6, a 5, a 3, an another 5 for a total of 19 points and used the hold feature, this would mean your banked score increases by 19. Be sure to do this before rolling a 1 in order to steadily increase your score.</h4>
+  </div>
 
   <script src="diceGame.js"></script>
 </body>

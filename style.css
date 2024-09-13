@@ -1,40 +1,48 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-  }
-  
-  h1 {
+    background-color: mediumblue;
+}  
+h1 {
     margin-top: 20px;
-  }
-  
-  .player {
+    background-color: aqua;
+    color: mediumblue;
+}
+.player1 {
     margin: 20px;
-  }
-  
-  button {
+    background-color: aqua;
+    color: mediumblue;
+}
+.player2 {
+  margin: 20px;
+  background-color: brown;
+  color: lime;
+}
+button {
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
-  }
-  
-  .center {
+    color: aqua;
+    background-color: darkmagenta;
+}
+#rules, #howToWin {
+  background-color: aqua;
+  color: mediumblue;
+}
+.center {
     display: block;
     margin: 20px auto;
-  }
-  
-  .hidden {
+}
+.hidden {
     display: none;
-  }
-  
-  .visible {
+}
+.visible {
     display: block;
-  }
-  
-  #coinTossSection, #message {
+}
+#coinTossSection, #message {
     margin: 20px;
-  }
-  
-  img {
+    color: aqua;
+}  
+img {
     max-width: 100px;
-  }
-  
+}
